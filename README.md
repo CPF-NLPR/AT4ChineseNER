@@ -4,3 +4,4 @@ This is the source code for the paper ''Adversarial Transfer Learning for Chines
   * TensorFlow >= v1.2.0
   * numpy
   * python 2.7
+## Usage
