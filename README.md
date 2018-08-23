@@ -11,6 +11,7 @@ Please download the [WeiboNER dataset](https://github.com/hltcoe/golden-horse/tr
 For training the model on WeiboNER dataset, you need to type the following commands:
  * python preprocess_weibo.py
  * python train_weibo.py
+
 For SighanNER dataset, the operation is similar. 
 ### Test model
 We have provided our best model on the original WeiboNER dataset in the `ckpt` directory. You just run the model like:
