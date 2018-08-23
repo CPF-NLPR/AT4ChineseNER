@@ -16,4 +16,5 @@ For SighanNER dataset, the operation is similar.
 We have provided our best model on the original WeiboNER dataset in the `ckpt` directory. You just run the model like:
  * python preprocess_weibo.py
  * python test_weibo.py
-  In addition, if you adjust certain hyper-parameters and train the model, you can test the model with restoring certain checkpoint.
+ 
+ In addition, if you adjust certain hyper-parameters and train the model, you can test the model with restoring certain checkpoint.
