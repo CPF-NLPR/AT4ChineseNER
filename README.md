@@ -13,4 +13,7 @@ For training the model on WeiboNER dataset, you need to type the following comma
  * python train_weibo.py
 For SighanNER dataset, the operation is similar. 
 ### Test model
-We have provided our best model on the original WeiboNER dataset in the `ckpt` directory.
+We have provided our best model on the original WeiboNER dataset in the `ckpt` directory. You just run the model like:
+ * python preprocess_weibo.py
+ * python test_weibo.py
+In addition, if you adjust certain hyper-parameters and train the model, you can test the model with restoring certain checkpoint.
