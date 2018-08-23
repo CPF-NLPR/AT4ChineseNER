@@ -8,3 +8,7 @@ This is the source code for the paper ''Adversarial Transfer Learning for Chines
 ### Download datasets
 Please download the [WeiboNER dataset](https://github.com/hltcoe/golden-horse/tree/master/data), [SighanNER dataset](http://sighan.cs.uchicago.edu/bakeoff2006/) and [MSR dataset](http://sighan.cs.uchicago.edu/bakeoff2005/), respectively. The dataset files are put in data directory.
 ### Train model
+For training the model on WeiboNER dataset, you need to type the following commands:
+ * python preprocess_weibo.py
+ * python train_weibo.py
+ 
